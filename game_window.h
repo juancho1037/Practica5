@@ -24,14 +24,17 @@ class GameWindow : public QDialog
     Q_OBJECT
 
 public:
+
     explicit GameWindow(QWidget* parent = nullptr);
     ~GameWindow() override;
 
 private slots:
+
     void Actualizar();
     void FantasmaActualizar();
 
 private:
+
     Ui::GameWindow *pantalla;
     QGraphicsScene escena;
 

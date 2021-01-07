@@ -1,6 +1,7 @@
 #include "BolaPoder.h"
 
-BolaPoder::BolaPoder(int x, int y, int ancho, int altura): Bola_Comida(x,y,ancho,altura)
+BolaPoder::BolaPoder(int x, int y, int ancho, int altura)
+    : Bola_Comida(x,y,ancho,altura)
 {
 
 }

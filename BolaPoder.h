@@ -8,6 +8,7 @@
 
 class BolaPoder: public Bola_Comida
 {
+
 public:
     BolaPoder(int x, int y, int ancho, int altura);//Constructor
 

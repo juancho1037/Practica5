@@ -9,6 +9,7 @@
 
 class Fantasma : public QGraphicsItem
 {
+
 public:
     Fantasma();
 
@@ -44,6 +45,7 @@ public:
     void movDireccionRecta();
 
 private:
+
     static int numero;
     static int estado;
     static bool validar;

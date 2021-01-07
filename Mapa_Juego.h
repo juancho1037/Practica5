@@ -7,7 +7,9 @@
 
 class mapa
 {
+
 public:
+
     mapa();
 
     static bool verificarPuntos(QPoint const& point);
@@ -18,6 +20,7 @@ public:
     QVector<QPoint> const& obtenerVectorPoder() const {return poder;}//Para las posiciones de las bolas de poder
 
 private:
+
     static QVector<QPoint> Rutas;
     QPixmap fondo;
     QVector<QPoint> comida;

@@ -10,6 +10,7 @@
 class Pacman : public QGraphicsItem
 {
 public:
+
     static int GetPacX() {return posX;}
     static int GetPacY() {return posY;}
 
@@ -21,6 +22,7 @@ public:
     void Mover();
 
 private:
+
     //Posiciones iniciales del Pacman
     static int const POSX = 320;
     static int const POSY = 514;

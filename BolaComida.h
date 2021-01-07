@@ -8,7 +8,6 @@
 #include <QDebug>
 #include "Mapa_Juego.h"
 
-
 class Bola_Comida : public QGraphicsItem
 {
 public:

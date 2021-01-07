@@ -5,13 +5,16 @@
 
 class VisualizarPuntuacion : public QGraphicsItem
 {
+
 public:
+
     VisualizarPuntuacion();//Constructor de la clase
     void SetPuntuacion(int puntaje);
     void IncrementarPuntuacion(int puntaje){puntuacion+=puntaje;}
     int GetPuntuacion() {return puntuacion;}
 
 private:
+
     int x;
     int y;
     int ancho;
